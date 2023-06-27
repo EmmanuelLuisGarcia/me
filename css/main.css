@@ -1324,7 +1324,7 @@ header .logo a {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-.intro-content h1 {
+.intro-content h2 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
@@ -1425,7 +1425,7 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-content h1 {
+	.intro-content h2 {
 		font-size: 7.6rem;
 	}
 	.intro-social {
@@ -1439,7 +1439,7 @@ header .logo a {
 	#intro {
 		min-height: 660px;
 	}
-	.intro-content h1 {
+	.intro-content h2 {
 		font-size: 5.2rem;
 	}
 	.intro-content h5 {
@@ -1459,7 +1459,7 @@ header .logo a {
 	#intro {
 		min-height: 600px;
 	}
-	.intro-content h1 {
+	.intro-content h2 {
 		font-size: 4.6rem;
 		margin-bottom: .6rem;
 	}
@@ -1527,9 +1527,17 @@ header .logo a {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
+
 .about-content .info-list {
 	list-style: none;
 	margin-left: 0;
+}
+.about-content .info-list h1 {
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: #888888;
+	font-size: 1.5rem;
+	line-height: 1;
 }
 .about-content .info-list li {
 	padding: 0 0 1.5rem 0;
@@ -1690,6 +1698,9 @@ header .logo a {
 #resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
+}
+#resume .timeline-content h2 {
+	font-size: 1.9rem;
 }
 #resume .timeline-content h4 {
 	position: relative;
@@ -2118,7 +2129,7 @@ header .logo a {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#services .section-intro h2 {
 	color: white;
 }
 #services .section-intro h5 {
